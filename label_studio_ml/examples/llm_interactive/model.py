@@ -14,9 +14,9 @@ from openai import OpenAI, AzureOpenAI
 
 from label_studio_ml.model import LabelStudioMLBase
 from label_studio_ml.response import ModelResponse
-from label_studio_sdk.objects import PredictionValue
-from label_studio_sdk.label_interface.object_tags import ImageTag, ParagraphsTag
-from label_studio_sdk.label_interface.control_tags import ControlTag, ObjectTag
+from label_studio_sdk._legacy.objects import PredictionValue
+from label_studio_sdk._legacy.label_interface.object_tags import ImageTag, ParagraphsTag
+from label_studio_sdk._legacy.label_interface.control_tags import ControlTag, ObjectTag
 
 logger = logging.getLogger(__name__)
 
