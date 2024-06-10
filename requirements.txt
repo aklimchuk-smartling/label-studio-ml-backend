@@ -5,4 +5,4 @@ semver~=3.0.2
 pillow~=10.3
 label_studio_tools @ git+https://github.com/HumanSignal/label-studio-tools.git@master
 # label_studio_sdk from git master branch
-label_studio_sdk @ git+https://github.com/aklimchuk-smartling/label-studio-sdk.git@4c03424f2d4dda240b51283b353c721fbbe971c0
+label_studio_sdk @ git+https://github.com/aklimchuk-smartling/label-studio-sdk.git@c6540c28e0e0b29d49d3ac17a59bea0a911bf3e8
