@@ -4,7 +4,7 @@ from pydantic import BaseModel
 from typing import Optional
 
 from label_studio_ml.response import ModelResponse
-from label_studio_sdk._legacy.objects import PredictionValue
+from label_studio_sdk.objects import PredictionValue
 
 MODEL_VERSION = 0.1
 

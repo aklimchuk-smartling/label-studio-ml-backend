@@ -23,7 +23,7 @@ from typing import Tuple, Callable, Union, List, Dict, Optional
 from abc import ABC
 from colorama import Fore
 
-from label_studio_sdk._legacy.label_interface import LabelInterface
+from label_studio_sdk.label_interface import LabelInterface
 from label_studio_tools.core.label_config import parse_config
 from label_studio_tools.core.utils.io import get_local_path
 from .response import ModelResponse
